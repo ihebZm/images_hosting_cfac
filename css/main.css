@@ -4,6 +4,13 @@
 body {
   font-size: 14px;
 }
+.sig-wrap {
+  position: relative;
+  width: 600px;
+  height: 170px;
+  max-width: 100%;
+  overflow: hidden;
+}
 .v1_2 {
   width: 1152px;
   height: 327px;
@@ -13,7 +20,10 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  transform-origin: top left;
+  transform: scale(0.52);
 }
+/*to comment the top side */
 .v1_3 {
   width: 210px;
   height: 80px;
@@ -180,7 +190,7 @@ body {
   text-align: left;
 }
 .v2_5 {
-  width: 100px;
+  width: 200px;
   color: rgba(35, 31, 32, 1);
   position: absolute;
   top: 110px;
@@ -275,6 +285,7 @@ body {
 .v2_12 {
   width: 12px;
   height: 12px;
+  /* background: url("https://raw.githubusercontent.com/ihebZm/images_hosting_cfac/main/images/v2_12.png"); */
   background: url("../images/v2_12.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -286,7 +297,7 @@ body {
   overflow: hidden;
 }
 .v2_13 {
-  width: 69px;
+  width: 88px;
   color: rgba(35, 31, 32, 1);
   position: absolute;
   top: 150px;
@@ -298,7 +309,7 @@ body {
   text-align: left;
 }
 .v2_17 {
-  width: 72px;
+  width: 92px;
   color: rgba(35, 31, 32, 1);
   position: absolute;
   top: 150px;
@@ -366,4 +377,14 @@ a.v2_25,
 a.v2_22 {
   display: block;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .sig-wrap {
+    width: 100%;
+    height: 137px;
+  }
+  .sig-wrap .v1_2 {
+    transform: scale(0.42);
+  }
 }

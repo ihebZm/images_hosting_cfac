@@ -24,10 +24,10 @@ body {
   transform: scale(0.52);
 }
 /*to comment the top side */
-.v1_3 {
+.v1_2 {
   width: 210px;
   height: 80px;
-  background: url("../images/v1_3.png");
+  background: url("../images/v1_2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -285,7 +285,7 @@ body {
 .v2_12 {
   width: 12px;
   height: 12px;
-  /* background: url("https://raw.githubusercontent.com/ihebZm/images_hosting_cfac/main/images/v2_12.png"); */
+  /* background: url("https://raw.githubusercontent.com/ihebZm/images_hosting_cfac/main/kibo-model-v1/assets/images/v2_12.png"); */
   background: url("../images/v2_12.png");
   background-repeat: no-repeat;
   background-position: center center;
